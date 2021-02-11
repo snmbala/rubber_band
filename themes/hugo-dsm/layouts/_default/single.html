@@ -1,0 +1,21 @@
+{{ partial "header.html" . }}
+
+{{ partial "sidenav.html" . }}
+
+<main class="dsm-app__content">
+
+    <div class="dsm-app__content-wrapper">
+
+        {{ .Content }}
+
+        <aside class="dsm-app__content-infos">
+
+            <p>Last update: {{ .Lastmod }}</p>
+
+        </aside>
+
+    </div>
+
+</main>
+
+{{ partial "footer.html" . }}
