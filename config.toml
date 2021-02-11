@@ -4,8 +4,10 @@ title = "Rubber Band"
 
 description = "Designer first Design System"
 theme = "book"
+BookMenuBundle= "/menu"
+
 disablePathToLower = true
-enableGitInfo = true
+enableGitInfo = false
 
 [markup.goldmark.renderer]
 unsafe = true

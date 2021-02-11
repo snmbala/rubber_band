@@ -8,7 +8,7 @@ headless: true
   - [Without ToC]({{< relref "/docs/example/table-of-contents/without-toc" >}})
 - [Collapsed]({{< relref "/docs/example/collapsed" >}})
   - [3rd]({{< relref "/docs/example/collapsed/3rd-level" >}})
-    - [5th]({{< relref "/docs/example/collapsed/3rd-level/4th-level" >}})
+    - [1th]({{< relref "/docs/example/collapsed/3rd-level/4th-level" >}})
 <br />
 
 - **Shortcodes**

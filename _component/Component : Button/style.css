@@ -1,0 +1,54 @@
+:root {
+    --LightBlue_600:#039BE5;
+    --LightBlue_700:#0288D1;
+    --LightBlue_800:#0277BD;
+    --DarkBlue:#0277BD;
+    --White:#0277BD;
+
+    --Grey_02:#F9F9F9;
+    --Grey_05:#F2F2F2;
+    --Grey_30:#B2B2B2;
+    --Grey_63:#5E5E5E;
+    --Grey_80:#333333;
+    --Grey_85:#262626;
+
+	--Red:#DA0606;
+    --Orange:#F38019;
+    --Yellow:#F5A623;
+    --Green_1:#89B753;
+    --Green_2:#579B0B;
+    --Purple:#A244A3;
+}
+
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
+
+.PrimaryButton{
+	border:none;
+	background-color: var(--LightBlue_800);
+	color: #ffffff;
+	padding:14px;
+	font-family: Antenna;
+	font-size: 13px;
+	min-width: 120px;
+	cursor: pointer;
+}
+
+.PrimaryButton:hover {
+    background-color: var(--LightBlue_600);
+}
+
+.SecondaryButton{
+	border:1px var(--LightBlue_800) solid;
+	background-color: #ffffff;
+	color: var(--LightBlue_800);
+	padding:14px 16px;
+	font-family: Antenna;
+	font-size: 13px;
+	min-width: 120px;
+	cursor: pointer;
+}
+
+.SecondaryButton:hover {
+    border:1px var(--LightBlue_600) solid;
+    color: var(--LightBlue_600);
+}
