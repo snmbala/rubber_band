@@ -31,21 +31,16 @@ contentDir = "content.zh"
 weight = 3
 
 [[menu.after]]
-name = "Github"
-url = "https://github.com/alex-shpak/hugo-book"
+name = "Sketch File"
+url = "https://www.sketch.com/s/ea15e306-7a65-43c9-b3dd-a97ad4d974af"
 weight = 10
-
-[[menu.after]]
-name = "Hugo Themes"
-url = "https://themes.gohugo.io/hugo-book/"
-weight = 20
 
 [params]
 BookTheme = "light"
 BookToC = true
 BookSection = "docs"
-BookRepo = "https://github.com/alex-shpak/hugo-book"
-BookEditPath = "edit/master/exampleSite"
+BookRepo = "https://github.com/snmbala/rubber_band"
+BookEditPath = "tree/master"
 BookDateFormat = "January 2, 2006"
 BookSearch = true
 BookComments = true
